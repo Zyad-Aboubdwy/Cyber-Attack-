@@ -1,0 +1,328 @@
+*{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body{
+   background-color: rgb(0, 0, 0);
+   color: rgb(249, 249, 249);
+   direction: rtl;
+}
+
+
+
+/* box */
+
+#box{
+position:relative;
+width:900px;
+height:400px;
+margin:100px auto 0;
+}
+
+#box ul{
+position:relative;
+width:800px;
+height:300px;
+}
+
+#box li{
+position:absolute;
+border:2px solid #000;
+list-style:none;
+background:#000;
+width:0;
+height:0;
+top:10px;
+left:400px;
+z-index:0;
+cursor:pointer;
+overflow:hidden;
+border-radius:3px;
+}
+
+#box li img{
+width:100%;
+height:100%;
+vertical-align:top;
+}
+
+#box .prev{
+position:absolute;
+top:50%;
+width:50px;
+height:80px;
+margin-top:-40px;
+overflow:hidden;
+text-indent:-999px;
+cursor:pointer;
+background-color: rgb(246, 247, 247);
+}
+
+#box .next{
+position:absolute;
+top:50%;
+width:50px;
+height:80px;
+margin-top:-40px;
+overflow:hidden;
+text-indent:-999px;
+cursor:pointer;
+background-color: rgb(235, 247, 243);
+}
+
+#box .prev{
+left:-60px;
+}
+
+#box .next{
+right:-70px;
+background-position:-px 0;
+}
+
+/* //  box  // */
+
+
+
+
+
+
+
+
+
+
+#head{
+   width: 100%;
+   height: 200px;
+   background-color: rgb(11, 85, 150);
+   display: flex;
+}
+
+#section1{
+   flex-grow: 33.333333333333333333333333;
+   position: sticky;
+}
+
+#img{
+   width: 440px;
+   height: 170px;
+}
+
+h1{
+   font-size: 80px;
+}
+
+nav{
+   width: 100%;
+   height: 55px;
+   background-color: #ffffff;
+   z-index: 99999999999999999999;
+   position:sticky;
+   top: 0;
+   /box-shadow: #f22522;
+}
+
+#zana{
+   color: #2d2e2e;
+   transition: .8s all ease;
+   font-size: 25px;
+}
+
+#zana:hover{
+ color: #f22522;
+}
+
+
+
+
+#zz{
+ position: relative;
+ height: 40px;
+ width: 46%;
+ color: #000;
+ background-color: beige;
+
+}
+#zz::before{
+ content: "";
+ height: 100%;
+ width: 12px;
+ background-color:blue;
+ position: absolute;
+ right: 0;
+top: 0;
+                                 }
+#zzz{
+ position: relative;
+ height: 40px;
+ color: #000;
+  width: 32%;
+ background-color: beige;
+
+}
+#zzz::before{
+ content: "";
+ height: 100%;
+ width: 12px;
+ background-color:blue;
+ position: absolute;
+ right: 0;
+top: 0;
+                                 }
+
+
+#zzzz{
+ position: relative;
+ height: 40px;
+  width: 62%;
+ color: #000;
+ background-color: beige;
+
+}
+#zzzz::before{
+ content: "";
+ height: 100%;
+ width: 12px;
+ background-color:blue;
+ position: absolute;
+ right: 0;
+top: 0;
+                                 }
+
+#zzzzz{
+ position: relative;
+ height: 40px;
+ color: #000;
+  width: 42%;
+ background-color: beige;
+
+}
+#zzzzz::before{
+ content: "";
+ height: 100%;
+ width: 12px;
+ background-color:blue;
+ position: absolute;
+ right: 0;
+top: 0;
+                                 }
+
+h2{
+   font-size: 50px;
+}
+
+h3{
+   font-size: 30px;
+}
+
+#zxzx{
+   width: 300px;
+   height: 400px;
+   border: dashed 5px;
+}
+
+#zczv{
+   height: 65px;
+   width: 75px;
+   border: solid beige;
+}
+
+
+#zzzzzz{
+ position: relative;
+ height: 70px;
+ color: #000;
+  width: 30%;
+ background-color: beige;
+
+}
+#zzzzzz::before{
+ content: "";
+ height: 100%;
+ width: 12px;
+ background-color:blue;
+ position: absolute;
+ right: 0;
+top: 0;
+                                 }
+
+#nnaammee{
+   background-color: rgb(0, 0, 0);
+   height: 50px;
+   font-size: 30px;
+   direction: ltr;
+}
+
+#divhr{
+   background-color: azure;
+}
+
+
+#hhh2{
+   color:aqua;
+   font-size: 36px;
+}
+
+#button{
+   height: 100px;
+   width: 60px;
+   position: sticky;
+}
+
+#zzzzzzzz{
+   background-color: #2d2e2e;
+   height: 100px;
+   width: 60px;
+   position: sticky;
+   z-index: 999999999999999999;
+   bottom: 20px;
+   right: 1000000px;
+}
+
+p{
+   font-size: 30px;
+}
+
+li{
+   font-size: 40px;
+   font-weight: bolder;
+}
+
+#hhr{
+   color:#ffffff;
+}
+
+h5{
+   font-size: 66px;
+   font-weight: 900px;
+}
+
+#section3{
+  flex-grow: 44;
+  position: sticky;
+}
+
+#img1{
+   width: 380px;
+   height: 170px;
+}
+
+#img5{
+   width: 390px;
+   height: 220px;
+}
+
+
+#head5{
+   width: 100%;
+   height: 220px;
+   background-color: rgb(39, 18, 82);
+   display: flex;
+}
+
+#img111111{
+   width: 100%;
+}
